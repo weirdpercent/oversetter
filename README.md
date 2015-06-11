@@ -5,6 +5,8 @@ oversetter
 
 Icon by [A’Design Award & Competition, Onur Müştak Çobanlı and Farhat Datta](http://www.languageicon.org)
 
+[![Gem Version](https://badge.fury.io/rb/oversetter.svg)](http://badge.fury.io/rb/oversetter)
+
 Oversetter is a text translation tool for the command line. It supports dozens of source and target languages. It requires a terminal emulator that supports UTF-8 encoding; I prefer [Terminator](http://gnometerminator.blogspot.com/p/introduction.html). Oversetter is best used for translating short snippets of text the length of a sentence. A list of ISO 639-1 and 639-2 [language codes](http://www.loc.gov/standards/iso639-2/php/English_list.php) can be helpful in setting the source and target languages.
 
 _Oversetter_ is Norwegian for 'translator'.
@@ -128,4 +130,5 @@ SOFTWARE.**
 Many thanks to all contributors to the gems used in this project! And thanks to the creators and maintainers of the APIs that this tool consumes. Glosbe, Hablaa and Yandex are awesome!
 
 Powered by [Hablaa](http://hablaa.com/)
+
 Powered by [Yandex.Translate](http://translate.yandex.com)
