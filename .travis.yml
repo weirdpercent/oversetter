@@ -3,8 +3,9 @@ cache: bundler
 rvm:
 - ruby-1.9.3
 - ruby-2.1.4
-- rbx-2.2.10
+# - rbx-2.2.10
 env:
+CODECLIMATE_REPO_TOKEN=f436fec3ad2b6750ad4899aa4926be65ea489887277ec3073819f74272a7c0b7 bundle exec rake
   matrix:
     secure: YBwgllw5lzpeqcvjKIAPuFjR1F0BIo+tYlj6WQ73zUyKHHAbCtV2RKXdWRgB+U+SDGvb1FhEZKGu4EcGURo8zcHGua8uB1EqoHHl+Qb3qcVHhrVw7xd6XwAJHq2kgj1BTNxA6Gbwu5UJr1v7A/eSwlvH+FDErnM73vhaRdzaQL0=
 script: bundle exec rake travis

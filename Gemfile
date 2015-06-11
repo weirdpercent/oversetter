@@ -3,6 +3,7 @@ source 'http://rubygems.org'
 gemspec
 
 # My ideal setup
+gem "codeclimate-test-reporter", group: :test, require: nil
 gem 'gli'
 gem 'htmlentities'
 gem 'httpi'
