@@ -1,0 +1,39 @@
+# Ruby   
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/test/tmp/
+/test/version_tmp/
+/tmp/
+
+# Documentation                           
+/.yardoc/
+/_yardoc/
+/.yardopts
+doc.sh
+/doc/
+/rdoc/
+
+# Environment               
+/.bundle/
+/lib/bundler/man/
+
+# Optional
+.ruby-version
+.ruby-gemset
+Gemfile.lock
+.rvmrc
+**/*.key
+.rspec
+/spec/
+.project
+/json/
+#/xml/
+#json.sh
+#xml.sh
+/notes/
+test.sh
