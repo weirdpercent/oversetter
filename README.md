@@ -5,7 +5,7 @@ oversetter
 
 Icon by [A’Design Award & Competition, Onur Müştak Çobanlı and Farhat Datta](http://www.languageicon.org)
 
-[![Build Status](https://travis-ci.org/weirdpercent/oversetter.svg?branch=master)](https://travis-ci.org/weirdpercent/oversetter) [![Gem Version](https://badge.fury.io/rb/oversetter.svg)](http://badge.fury.io/rb/oversetter) [![Code Climate](https://codeclimate.com/github/weirdpercent/oversetter/badges/gpa.svg)](https://codeclimate.com/github/weirdpercent/oversetter) [![Test Coverage](https://codeclimate.com/github/weirdpercent/oversetter/badges/coverage.svg)](https://codeclimate.com/github/weirdpercent/oversetter/coverage)
+[![Build Status](https://travis-ci.org/weirdpercent/oversetter.svg?branch=master)](https://travis-ci.org/weirdpercent/oversetter) [![Gem Version](https://badge.fury.io/rb/oversetter.svg)](http://badge.fury.io/rb/oversetter) [![Code Climate](https://codeclimate.com/github/weirdpercent/oversetter/badges/gpa.svg)](https://codeclimate.com/github/weirdpercent/oversetter) [![Coverage Status](https://coveralls.io/repos/weirdpercent/oversetter/badge.svg)](https://coveralls.io/r/weirdpercent/oversetter)
 
 Oversetter is a text translation tool for the command line. It supports dozens of source and target languages. It requires a terminal emulator that supports UTF-8 encoding; I prefer [Terminator](http://gnometerminator.blogspot.com/p/introduction.html). Oversetter is best used for translating short snippets of text the length of a sentence. A list of ISO 639-1 and 639-2 [language codes](http://www.loc.gov/standards/iso639-2/php/English_list.php) can be helpful in setting the source and target languages.
 
