@@ -1,10 +1,8 @@
 require 'rspec/expectations'
 require 'spinach'
-#require 'coveralls'
-require "codeclimate-test-reporter"
+require 'coveralls'
 
-CodeClimate::TestReporter.start
-#Coveralls.wear!
+Coveralls.wear!
 PROJECT_ROOT = File.join(File.dirname(__FILE__),'..','..')
 ENV['PATH'] = "#{File.join(PROJECT_ROOT,'bin')}#{File::PATH_SEPARATOR}#{ENV['PATH']}"
 LIB_DIR = File.join(File.expand_path(File.dirname(__FILE__)),'..','..','lib')
