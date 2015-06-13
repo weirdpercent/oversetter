@@ -4,10 +4,12 @@ rvm:
 - ruby-1.9.3
 - ruby-2.1.4
 env:
-	global:
-	- secure: PS60SMGHamc1/1aET9xHtWS0YBQbZMnCj5wI5zNHJUtf36/Srz1xO9ut0hEVk7oQv0424k2XiVA4JqIABSXnio8OKK8F2gIIoV0EWuQqU1dbv/P1Jth/Boy6rE+Hs+HBwRFHJzP/smPqWcehXPg7VmdjTv7TF1WIWt0rfUlVMaY=
   matrix:
   - secure: YBwgllw5lzpeqcvjKIAPuFjR1F0BIo+tYlj6WQ73zUyKHHAbCtV2RKXdWRgB+U+SDGvb1FhEZKGu4EcGURo8zcHGua8uB1EqoHHl+Qb3qcVHhrVw7xd6XwAJHq2kgj1BTNxA6Gbwu5UJr1v7A/eSwlvH+FDErnM73vhaRdzaQL0=
+addons:
+  code_climate:
+    repo_token:
+      secure: PS60SMGHamc1/1aET9xHtWS0YBQbZMnCj5wI5zNHJUtf36/Srz1xO9ut0hEVk7oQv0424k2XiVA4JqIABSXnio8OKK8F2gIIoV0EWuQqU1dbv/P1Jth/Boy6rE+Hs+HBwRFHJzP/smPqWcehXPg7VmdjTv7TF1WIWt0rfUlVMaY=
 script: bundle exec rake travis
 after_success:
 - coveralls
