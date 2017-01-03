@@ -1,6 +1,8 @@
 oversetter
 ===
 
+**NOTICE** Oversetter is no longer maintained. I may do bug fixes if requested but honestly I prefer my @drawnepicenter account and Oversetter's successor [Toloko](https://github.com/drawnepicenter/toloko). So long (for now) Ruby, hello Node.js and other languages/platforms.
+
 [![oversetter](icon.png)](http://raw.githubusercontent.com/weirdpercent/oversetter/master/icon.png)
 
 Icon by [A’Design Award & Competition, Onur Müştak Çobanlı and Farhat Datta](http://www.languageicon.org)
